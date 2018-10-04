@@ -1,0 +1,55 @@
+print("This is a game about something idk what tho")
+xd = True
+d=False
+end=0
+while xd==True:
+  a=input ("Are you gay or straight lol")
+  if a=="gay":
+    b=input("sure, whatever. anyway, since you gay af, do you have a bf or not")
+    if b=="yes":
+      c=input("omg so hot, so is he nice or is a badboy")
+      if c=="badboy":
+        print("after a year you're left alone and sad\n")
+      elif c=="nice":
+        print("after a while you leave him because he loses his charm\n")
+      else:
+        print("kys\n")
+        print("\n")
+        xd=False
+    elif b=="no":
+      c=input("wow you must be fun at parties. are u do")
+    else:
+      print("kys\n")
+      print("\n")
+      xd=False
+  elif a=="straight":
+    b=input("k. since you normal af, do you have a gf or na")
+    if b=="yes":
+      c=input("wow sucha basic b. so did u smash")
+      if c=="yes":
+        print("you continue with the endless cycle of switching women and end your life alone\n")
+      elif c=="no":
+        print("you never find a loved one and are always used and thrown around by other women and end up alone\n")
+      else:
+        print("kys\n")
+        print("\n")
+        xd=False
+    elif b=="no":
+      c=input("so you single? what a loser it's 2018 - if you dont find a gf you're a lost cause. so will you try to find one")
+      if c=="yes":
+        print("you live a long, generally happy, and fullfilling life\n")
+        d=True
+      elif c=="no":
+        print("you stalled until the end of you life\n xd\n")
+      else:
+        print("kys\n")
+        print("\n")
+        xd=False
+  else: 
+    print("kys\n")
+    print("\n")
+    xd=False
+  if d==True:
+    print("After your death you go into the afterlife where God welcomes you into eternal happiness\n\n\n")
+  else:
+    print("you burn in hell for your sins lol xdddddddd\n\n\n")
